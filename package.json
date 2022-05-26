@@ -1,6 +1,6 @@
 {
   "name": "nestjs-simple-auth-mongoose",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Mongoose Adapter for NestJS Simple Auth",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,18 +12,19 @@
   "author": "Kurien Zacharia",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "nestjs-simple-auth": "../nestjs-simple-auth/nestjs-simple-auth-v0.0.3.tgz"
+    "bcrypt": "^5.0.1"
   },
   "peerDependencies": {
-    "@nestjs/mongoose": "^9.1.0",
     "@nestjs/common": "^8.0.0",
-    "mongoose": "^6.3.4"
+    "@nestjs/mongoose": "^9.1.0",
+    "mongoose": "^6.3.4",
+    "nestjs-simple-auth": "^0.0.6"
   },
   "devDependencies": {
-    "@nestjs/mongoose": "^9.1.0",
     "@nestjs/common": "^8.0.0",
+    "@nestjs/mongoose": "^9.1.0",
     "mongoose": "^6.3.4",
+    "nestjs-simple-auth": "^0.0.6",
     "rimraf": "^3.0.2",
     "typescript": "^4.3.5"
   }
